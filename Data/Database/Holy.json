@@ -1,0 +1,27 @@
+[
+    {
+    "name": "Divine Strength",
+    "description": ["Increases your Strength by 2%",
+                    "Increases your Strength by 4%",
+                    "Increases your Strength by 6%",
+                    "Increases your Strength by 8%",
+                    "Increases your Strength by 10%"],
+    "max-rank": 5
+    },
+    {
+        "name": "Divine Intellect",
+        "description": ["Increases your Intellect by 2%",
+                        "Increases your Intellect by 4%",
+                        "Increases your Intellect by 6%",
+                        "Increases your Intellect by 8%",
+                        "Increases your Intellect by 10%"],
+        "max-rank": 5
+    },
+    {
+        "name": "Holy Judgment",
+        "description": ["Reduces the cast time of your Holy Light by 0.3 seconds",
+                        "Reduces the cast time of your Holy Light by 0.6 seconds",
+                        "Reduces the cast time of your Holy Light by 1 seconds"],
+        "max-rank": 3
+    }
+]

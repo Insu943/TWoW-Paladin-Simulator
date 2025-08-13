@@ -1,0 +1,2144 @@
+[
+    {
+        "Class": "Helmet",
+        "items": [
+            {
+                "name": "Ragereaver's Helm",
+                "type": "Plate",
+                "armor": 484,
+                "strength": 10,
+                "quality": 3,
+                "meleecrit": 2
+            },
+            {
+                "name": "Mixologist Goggles",
+                "type": "Leather",
+                "agility": 12,
+                "stamina": 15,
+                "natureResistance": 15,
+                "quality": 3,
+                "hit": 1
+            },
+            {
+                "name": "Foreman's Head Protector",
+                "type": "Plate",
+                "armor": 469,
+                "strength": 15,
+                "stamina": 14,
+                "intellect": 11,
+                "quality": 3,
+                "spellpower": 13
+            },
+            {
+                "name": "Savage Gladiator Helm",
+                "type": "Mail",
+                "armor": 275,
+                "agility": 12,
+                "stamina": 28,
+                "quality": 3
+            },
+            {
+                "name": "Golem Skull Helm",
+                "type": "Plate",
+                "armor": 477,
+                "strength": 18,
+                "stamina": 18,
+                "quality": 3,
+                "defense": 7
+            },
+            {
+                "name": "Ghostshroud",
+                "type": "Leather",
+                "armor": 132,
+                "strength": 12,
+                "agility": 19,
+                "stamina": 18,
+                "shadowResistance": 5,
+                "quality": 3
+            },
+            {
+                "name": "Ragefury Eyepatch",
+                "type": "Leather",
+                "armor": 132,
+                "strength": 6,
+                "stamina": 9,
+                "quality": 3,
+                "meleecrit": 2
+            },
+            {
+                "name": "Felhide Cap",
+                "type": "Leather",
+                "armor": 134,
+                "agility": 21,
+                "stamina": 14,
+                "fireResistance": 8,
+                "shadowResistance": 8,
+                "quality": 3
+            },
+            {
+                "name": "Helm of Awareness",
+                "type": "Plate",
+                "armor": 493,
+                "stamina": 17,
+                "quality": 3,
+                "dodge": 2
+            },
+            {
+                "name": "Insightful Hood",
+                "type": "Leather",
+                "armor": 139,
+                "stamina": 12,
+                "intellect": 15,
+                "spirit": 9,
+                "spellcrit": 1,
+                "healing": 33,
+                "quality": 3
+            },
+            {
+                "name": "Lightforge Helm",
+                "type": "Plate",
+                "armor": 526,
+                "strength": 13,
+                "agility": 6,
+                "stamina": 20,
+                "intellect": 14,
+                "spirit": 10,
+                "quality": 3
+            },
+            {
+                "name": "Tattered Leather Hood",
+                "type": "Leather",
+                "armor": 130,
+                "agility": 10,
+                "stamina": 23,
+                "hit": 1,
+                "quality": 3
+            },
+            {
+                "name": "Crown of Tyranny",
+                "type": "Mail",
+                "armor": 301,
+                "stamina": 20,
+                "spirit": -10,
+                "attackpower": 40,
+                "meleecrit": 1,
+                "quality": 3
+            },
+            {
+                "name": "Helm of the New Moon",
+                "type": "Leather",
+                "armor": 139,
+                "stamina": 14,
+                "intellect": 13,
+                "spirit": 12,
+                "spellpower": 23,
+                "healing": 23,
+                "quality": 3
+            },
+            {
+                "name": "Helmet of the Scarlet Avenger",
+                "type": "Plate",
+                "armor": 519,
+                "strength": 13,
+                "stamina": 14,
+                "intellect": 10,
+                "meleecrit": 1,
+                "quality": 3
+            },
+            {
+                "name": "Mask of the Unforgiven",
+                "type": "Leather",
+                "armor": 132,
+                "stamina": 12,
+                "hit": 2,
+                "meleecrit": 1,
+                "quality": 3
+            },
+            {
+                "name": "Helm of the Executioner",
+                "type": "Plate",
+                "armor": 534,
+                "strength": 14,
+                "stamina": 20,
+                "hit": 2,
+                "quality": 3
+            },
+            {
+                "name": "Gyth's Skull",
+                "type": "Plate",
+                "armor": 509,
+                "stamina": 20,
+                "defense": 9,
+                "quality": 3
+            },
+            {
+                "name": "Tribal War Feathers",
+                "type": "Leather",
+                "armor": 137,
+                "stamina": 12,
+                "intellect": 15,
+                "healing": 33,
+                "quality": 3
+            },
+            {
+                "name": "Eye of Rend",
+                "type": "Leather",
+                "armor": 143,
+                "strength": 13,
+                "stamina": 7,
+                "meleecrit": 2,
+                "quality": 3
+            },
+            {
+                "name": "Timeloop Headguard",
+                "type": "Mail",
+                "armor": 317,
+                "strength": 19,
+                "stamina": 20,
+                "intellect": 12,
+                "spellpower": 11,
+                "healing": 11,
+                "defense": 5,
+                "quality": 3
+            }
+        ]
+    },
+    {
+        "Class": "Neck",
+        "items": [
+            {
+                "name": "Taskmaster's Tag",
+                "type": "Neck",
+                "armor": 75,
+                "stamina": 11,
+                "defense": 5,
+                "quality": 3
+            },
+            {
+                "name": "Verek's Collar",
+                "type": "Neck",
+                "strength": 6,
+                "stamina": 7,
+                "quality": 3,
+                "dodge": 1
+            },
+            {
+                "name": "Imperial Jewel",
+                "type": "Neck",
+                "stamina": 7,
+                "quality": 3,
+                "attackpower": 32
+            },
+            {
+                "name": "Evil Eye Pendant",
+                "type": "Neck",
+                "agility": 15,
+                "defense": 7,
+                "quality": 3
+            },
+            {
+                "name": "Amulet of the Redeemed",
+                "type": "Neck",
+                "stamina": 9,
+                "intellect": 9,
+                "spirit": 8,
+                "healing": 15,
+                "quality": 3
+            },
+            {
+                "name": "Animated Chain Necklace",
+                "type": "Neck",
+                "stamina": 7,
+                "spirit": 6,
+                "healing": 33,
+                "quality": 3
+            },
+            {
+                "name": "Pendant of Celerity",
+                "type": "Neck",
+                "agility": 15,
+                "hit": 1,
+                "quality": 3
+            },
+            {
+                "name": "Hollowbone Choker",
+                "type": "Neck",
+                "intellect": 10,
+                "spirit": 9,
+                "healing": 26,
+                "mp5": 3,
+                "quality": 3
+            },
+            {
+                "name": "Crocolisk Tooth Necklace",
+                "type": "Neck",
+                "strength": 10,
+                "intellect": 10,
+                "attackpower": 24,
+                "quality": 3
+            }
+        ]
+    },
+    {
+        "Class": "Shoulder",
+        "items": [
+            {
+                "name": "Blackhammer's Pauldrons",
+                "type": "Plate",
+                "armor": 441,
+                "stamina": 10,
+                "strength": 15,
+                "agility": 7,
+                "quality": 3
+            },
+            {
+                "name": "Earthslag Shoulders",
+                "type": "Plate",
+                "armor": 410,
+                "strength": 13,
+                "stamina": 8,
+                "intellect": 8,
+                "quality": 3,
+                "spellpower": 9
+            },
+            {
+                "name": "Splinthide Shoulders",
+                "type": "Leather",
+                "armor": 118,
+                "strength": 11,
+                "stamina": 10,
+                "intellect": 10,
+                "quality": 3,
+                "spellpower": 9
+            },
+            {
+                "name": "Lead Surveyor's Mantle",
+                "type": "Mail",
+                "armor": 246,
+                "intellect": 14,
+                "spirit": 8,
+                "quality": 3,
+                "spellpower": 15
+            },
+            {
+                "name": "Bile-etched Spaulders",
+                "type": "Plate",
+                "armor": 485,
+                "strength": 6,
+                "stamina": 17,
+                "intellect": 6,
+                "defense": 7,
+                "quality": 3
+            },
+            {
+                "name": "Bulky Iron Spaulders",
+                "type": "Plate",
+                "armor": 470,
+                "strength": 15,
+                "stamina": 12,
+                "spirit": 5,
+                "defense": 6,
+                "quality": 3
+            },
+            {
+                "name": "Denwatcher's Shoulders",
+                "type": "Mail",
+                "armor": 266,
+                "stamina": 10,
+                "intellect": 10,
+                "spirit": 10,
+                "spellpower": 18,
+                "healing": 18,
+                "quality": 3
+            },
+            {
+                "name": "Cyclone Spaulders",
+                "type": "Leather",
+                "armor": 129,
+                "stamina": 11,
+                "intellect": 11,
+                "spirit": 9,
+                "spellpower": 14,
+                "healing": 14,
+                "quality": 3
+            },
+            {
+                "name": "Bone Golem Shoulders",
+                "type": "Mail",
+                "armor": 274,
+                "agility": 19,
+                "stamina": 9,
+                "intellect": 9,
+                "quality": 3
+            },
+            {
+                "name": "Royal Cap Spaulders",
+                "type": "Mail",
+                "armor": 274,
+                "stamina": 8,
+                "intellect": 9,
+                "spirit": 13,
+                "healing": 26,
+                "quality": 3
+            },
+            {
+                "name": "Stoneform Shoulders",
+                "type": "Plate",
+                "armor": 688,
+                "defense": 7,
+                "quality": 3
+            },
+            {
+                "name": "Wyrmtongue Shoulders",
+                "type": "Leather",
+                "armor": 132,
+                "agility": 23,
+                "stamina": 10,
+                "quality": 3
+            },
+            {
+                "name": "Wailing Nightbane Pauldrons",
+                "type": "Plate",
+                "armor": 448,
+                "strength": 14,
+                "stamina": 14,
+                "shadowResistance": 10,
+                "defense": 3,
+                "quality": 3
+            },
+            {
+                "name": "Lightforge Spaulders",
+                "type": "Plate",
+                "armor": 470,
+                "strength": 9,
+                "agility": 4,
+                "stamina": 15,
+                "intellect": 11,
+                "spirit": 5,
+                "quality": 3
+            },
+            {
+                "name": "Truestrike Shoulders",
+                "type": "Leather",
+                "armor": 129,
+                "hit": 2,
+                "attackpower": 24,
+                "quality": 3
+            },
+            {
+                "name": "Stratholme Militia Shoulderguard",
+                "type": "Mail",
+                "armor": 266,
+                "agility": 22,
+                "stamina": 9,
+                "quality": 3
+            },
+            {
+                "name": "Shoulderguards of the Defiler",
+                "type": "Mail",
+                "armor": 290,
+                "stamina": 12,
+                "hit": 2,
+                "attackpower": 20,
+                "quality": 3
+            },
+            {
+                "name": "Pauldrons of the Timeless",
+                "type": "Plate",
+                "armor": 513,
+                "strength": 11,
+                "agility": 10,
+                "stamina": 14,
+                "intellect": 8,
+                "spellpower": 12,
+                "healing": 12,
+                "quality": 3
+            }
+        ]
+    },
+    {
+        "Class": "Cloak",
+        "items": [
+            {
+                "name": "Spritecaster Cape",
+                "type": "Back",
+                "armor": 37,
+                "stamina": 4,
+                "intellect": 4,
+                "spirit": 5,
+                "quality": 3,
+                "spellpower": 14
+            },
+            {
+                "name": "Blackveil Cape",
+                "type": "Back",
+                "armor": 38,
+                "strength": 6,
+                "agility": 14,
+                "quality": 3
+            },
+            {
+                "name": "The Emperor's New Cape",
+                "type": "Back",
+                "armor": 43,
+                "agility": 7,
+                "stamina": 16,
+                "quality": 3
+            },
+            {
+                "name": "Cloak of the Cosmos",
+                "type": "Back",
+                "armor": 44,
+                "stamina": 7,
+                "intellect": 11,
+                "healing": 26,
+                "quality": 3
+            },
+            {
+                "name": "Phantasmal Cloak",
+                "type": "Back",
+                "armor": 114,
+                "strength": 12,
+                "stamina": 11,
+                "quality": 3
+            },
+            {
+                "name": "Cape of the Black Baron",
+                "type": "Back",
+                "armor": 45,
+                "agility": 15,
+                "attackpower": 20,
+                "quality": 3
+            },
+            {
+                "name": "Shadow Prowler's Cloak",
+                "type": "Back",
+                "armor": 45,
+                "agility": 17,
+                "stamina": 7,
+                "quality": 3
+            },
+            {
+                "name": "Shroud of Domination",
+                "type": "Back",
+                "armor": 45,
+                "strength": 17,
+                "stamina": 7,
+                "quality": 3
+            },
+            {
+                "name": "Shroud of Haunted Torment",
+                "type": "Back",
+                "armor": 46,
+                "spellpower": 16,
+                "healing": 16,
+                "quality": 3
+            },
+            {
+                "name": "Magic-infused Cloak",
+                "type": "Back",
+                "armor": 48,
+                "intellect": 10,
+                "spirit": 7,
+                "spellpower": 16,
+                "healing": 16,
+                "quality": 3
+            }
+        ]
+    },
+    {
+        "Class": "Chest",
+        "items": [
+            {
+                "name": "Savage Gladiator Chain",
+                "type": "Mail",
+                "armor": 369,
+                "strength": 13,
+                "agility": 14,
+                "stamina": 13,
+                "quality": 4,
+                "meleecrit": 2
+            },
+            {
+                "name": "Spiderfang Carapace",
+                "type": "Plate",
+                "armor": 567,
+                "strength": 14,
+                "stamina": 14,
+                "intellect": 13,
+                "quality": 3,
+                "spellpower": 13
+            },
+            {
+                "name": "Carapace of Anub'shiah",
+                "type": "Plate",
+                "armor": 577,
+                "strength": 11,
+                "agility": 11,
+                "stamina": 22,
+                "quality": 3
+            },
+            {
+                "name": "Royal Decorated Armor",
+                "type": "Mail",
+                "armor": 344,
+                "strength": 8,
+                "agility": 12,
+                "stamina": 26,
+                "quality": 3
+            },
+            {
+                "name": "Energized Chestplate",
+                "type": "Plate",
+                "armor": 617,
+                "stamina": 20,
+                "intellect": 12,
+                "quality": 3,
+                "mp5": 5,
+                "defense": 8
+            },
+            {
+                "name": "Chestplate of Tranquility",
+                "type": "Leather",
+                "armor": 174,
+                "stamina": 10,
+                "intellect": 20,
+                "spirit": 6,
+                "spellpower": 23,
+                "healing": 23,
+                "quality": 3
+            },
+            {
+                "name": "Ogre Forged Hauberk",
+                "type": "Mail",
+                "armor": 365,
+                "strength": 8,
+                "agility": 20,
+                "stamina": 13,
+                "intellect": 8,
+                "meleecrit": 1,
+                "quality": 3
+            },
+            {
+                "name": "Kromcrush's Chestplate",
+                "type": "Plate",
+                "armor": 777,
+                "strength": 16,
+                "stamina": 16,
+                "defense": 10,
+                "quality": 3
+            },
+            {
+                "name": "Deathbone Chestplate",
+                "type": "Plate",
+                "armor": 637,
+                "stamina": 12,
+                "defense": 17,
+                "mp5": 5,
+                "quality": 3
+            },
+            {
+                "name": "Bloodmail Hauberk",
+                "type": "Mail",
+                "armor": 360,
+                "strength": 10,
+                "agility": 10,
+                "stamina": 15,
+                "intellect": 15,
+                "dodge": 1,
+                "quality": 3
+            },
+            {
+                "name": "Bonebrace Hauberk",
+                "type": "Mail",
+                "armor": 360,
+                "intellect": 13,
+                "spirit": 4,
+                "attackpower": 56,
+                "quality": 3
+            },
+            {
+                "name": "Plate of the Shaman King",
+                "type": "Plate",
+                "armor": 627,
+                "strength": 12,
+                "stamina": 15,
+                "intellect": 15,
+                "spellpower": 18,
+                "healing": 18,
+                "quality": 3
+            },
+            {
+                "name": "Lightforge Breastplate",
+                "type": "Plate",
+                "armor": 657,
+                "strength": 13,
+                "stamina": 21,
+                "intellect": 16,
+                "spirit": 8,
+                "quality": 3
+            },
+            {
+                "name": "Nightbrace Tunic",
+                "type": "Leather",
+                "armor": 172,
+                "agility": 5,
+                "stamina": 10,
+                "fireResistance": 10,
+                "shadowResistance": 10,
+                "attackpower": 50,
+                "quality": 3
+            },
+            {
+                "name": "Splintercage Breastplate",
+                "type": "Plate",
+                "armor": 784,
+                "strength": 28,
+                "stamina": 12,
+                "attackpower": 10,
+                "quality": 3
+            },
+            {
+                "name": "Cadaverlink Vest",
+                "type": "Mail",
+                "armor": 376,
+                "agility": 29,
+                "intellect": 13,
+                "spirit": 9,
+                "haste": 2,
+                "quality": 3
+            },
+            {
+                "name": "Breastplate of the Lost Champion",
+                "type": "Plate",
+                "armor": 804,
+                "strength": 16,
+                "agility": 10,
+                "stamina": 23,
+                "shadowResistance": 8,
+                "defense": 6,
+                "quality": 3
+            }
+        ]
+    },
+    {
+        "Class": "Bracer",
+        "items": [
+            {
+                "name": "Rubicund Armguards",
+                "type": "Mail",
+                "armor": 143,
+                "agility": 8,
+                "stamina": 14,
+                "quality": 3
+            },
+            {
+                "name": "Black Steel Bindings",
+                "type": "Plate",
+                "armor": 261,
+                "strength": 10,
+                "agility": 7,
+                "stamina": 10,
+                "quality": 3
+            },
+            {
+                "name": "Runed Golem Shackles",
+                "type": "Plate",
+                "armor": 244,
+                "strength": 14,
+                "quality": 3,
+                "defense": 4
+            },
+            {
+                "name": "Bracers of the Eclipse",
+                "type": "Leather",
+                "armor": 76,
+                "agility": 10,
+                "stamina": 9,
+                "attackpower": 24,
+                "quality": 3
+            },
+            {
+                "name": "Fel Hardened Bracers",
+                "type": "Plate",
+                "armor": 283,
+                "strength": 12,
+                "stamina": 12,
+                "defense": 3,
+                "quality": 3
+            },
+            {
+                "name": "Demon Howl Wristguards",
+                "type": "Mail",
+                "armor": 160,
+                "stamina": 17,
+                "attackpower": 14,
+                "quality": 3
+            },
+            {
+                "name": "Gordok Bracers of Power",
+                "type": "Plate",
+                "armor": 287,
+                "strength": 17,
+                "stamina": 7,
+                "quality": 3
+            },
+            {
+                "name": "Bracers of Prosperity",
+                "type": "Leather",
+                "armor": 77,
+                "stamina": 8,
+                "intellect": 10,
+                "spirit": 5,
+                "healing": 22,
+                "quality": 3
+            },
+            {
+                "name": "Lightforge Bracers",
+                "type": "Plate",
+                "armor": 261,
+                "strength": 7,
+                "agility": 4,
+                "stamina": 10,
+                "spirit": 8,
+                "quality": 3
+            },
+            {
+                "name": "Vambraces of the Sadist",
+                "type": "Plate",
+                "armor": 270,
+                "strength": 6,
+                "stamina": 7,
+                "meleecrit": 1,
+                "quality": 3
+            },
+            {
+                "name": "Battleborn Armbraces",
+                "type": "Plate",
+                "armor": 287,
+                "hit": 1,
+                "meleecrit": 1,
+                "quality": 3
+            },
+            {
+                "name": "Consumer Shackles",
+                "type": "Plate",
+                "armor": 291,
+                "strength": 15,
+                "stamina": 10,
+                "defense": 5,
+                "hp5": 8,
+                "quality": 3
+            }
+        ]
+    },
+    {
+        "Class": "Gloves",
+        "items": [
+            {
+                "name": "Electroconductive Mitts",
+                "type": "Leather",
+                "armor": 101,
+                "stamina": 7,
+                "strength": 6,
+                "agility": 13,
+                "natureResistance": -5,
+                "quality": 3
+            },
+            {
+                "name": "Savage Gladiator Grips",
+                "type": "Mail",
+                "armor": 211,
+                "strength": 5,
+                "agility": 9,
+                "stamina": 14,
+                "intellect": 12,
+                "quality": 3
+            },
+            {
+                "name": "Mar Alom's Grip",
+                "type": "Leather",
+                "armor": 100,
+                "stamina": 5,
+                "intellect": 10,
+                "spirit": 8,
+                "quality": 3,
+                "healing": 22
+            },
+            {
+                "name": "Fists of Phalanx",
+                "type": "Plate",
+                "armor": 367,
+                "strength": 20,
+                "stamina": 9,
+                "quality": 3
+            },
+            {
+                "name": "Gloves of Restoration",
+                "type": "Leather",
+                "armor": 105,
+                "stamina": 10,
+                "intellect": 9,
+                "quality": 3,
+                "healing": 37
+            },
+            {
+                "name": "Force Imbued Gauntlets",
+                "type": "Plate",
+                "armor": 538,
+                "stamina": 14,
+                "defense": 7,
+                "quality": 3
+            },
+            {
+                "name": "Harmonious Gauntlets",
+                "type": "Mail",
+                "armor": 231,
+                "stamina": 8,
+                "intellect": 8,
+                "spirit": 8,
+                "healing": 42,
+                "quality": 3
+            },
+            {
+                "name": "Boneclenched Gauntlets",
+                "type": "Plate",
+                "armor": 404,
+                "strength": 15,
+                "stamina": 14,
+                "defense": 7,
+                "quality": 3
+            },
+            {
+                "name": "Gauntlets of Myrmidon",
+                "type": "Mail",
+                "armor": 225,
+                "strength": 10,
+                "agility": 6,
+                "stamina": 12,
+                "attackpower": 20,
+                "quality": 3
+            },
+            {
+                "name": "Lightforge Gauntlets",
+                "type": "Plate",
+                "armor": 386,
+                "strength": 14,
+                "stamina": 9,
+                "spirit": 14,
+                "quality": 3
+            },
+            {
+                "name": "Draconian Gauntlets",
+                "type": "Mail",
+                "armor": 231,
+                "stamina": 10,
+                "intellect": 11,
+                "spirit": 9,
+                "spellpower": 16,
+                "healing": 16,
+                "quality": 3
+            },
+            {
+                "name": "Death Grips",
+                "type": "Plate",
+                "armor": 404,
+                "strength": 22,
+                "quality": 3
+            },
+            {
+                "name": "Reiver Claws",
+                "type": "Plate",
+                "armor": 398,
+                "strength": 9,
+                "stamina": 15,
+                "meleecrit": 1,
+                "quality": 3
+            },
+            {
+                "name": "Skullcrushing Gauntlets",
+                "type": "Plate",
+                "armor": 421,
+                "strength": 13,
+                "spirit": 11,
+                "meleecrit": 1,
+                "ignoreArmor": 25,
+                "quality": 3
+            },
+            {
+                "name": "Rotworm Grips",
+                "type": "Leather",
+                "armor": 113,
+                "strength": 22,
+                "agility": 7,
+                "stamina": 9,
+                "hit": 1,
+                "quality": 3
+            },
+            {
+                "name": "Gauntlets of the Lost Crusader",
+                "type": "Plate",
+                "armor": 410,
+                "stamina": 11,
+                "intellect": 10,
+                "shadowResistance": 10,
+                "healing": 33,
+                "quality": 3
+            },
+            {
+                "name": "Gauntlets of the Bogbeast",
+                "type": "Mail",
+                "armor": 242,
+                "stamina": 12,
+                "intellect": 12,
+                "spellpower": 21,
+                "healing": 21,
+                "quality": 3
+            }
+        ]
+    },
+    {
+        "Class": "Belt",
+        "items": [
+            {
+                "name": "Shadowruned Girdle",
+                "type": "Leather",
+                "armor": 91,
+                "strength": 18,
+                "quality": 3,
+                "attackpower": 20,
+                "meleehaste": 1
+            },
+            {
+                "name": "Verek's Leash",
+                "type": "Mail",
+                "armor": 187,
+                "strength": 8,
+                "agility": 8,
+                "stamina": 8,
+                "intellect": 8,
+                "spirit": 7,
+                "quality": 3,
+                "spellpower": 11
+            },
+            {
+                "name": "Eyestalk Cord",
+                "type": "Leather",
+                "armor": 98,
+                "stamina": 9,
+                "intellect": 15,
+                "healing": 35,
+                "quality": 3
+            },
+            {
+                "name": "Warpwood Binding",
+                "type": "Mail",
+                "armor": 202,
+                "agility": 14,
+                "stamina": 6,
+                "intellect": 9,
+                "meleecrit": 1,
+                "quality": 3
+            },
+            {
+                "name": "Elemental Plate Girdle",
+                "type": "Plate",
+                "armor": 358,
+                "strength": 17,
+                "stamina": 10,
+                "quality": 3
+            },
+            {
+                "name": "Deathbone Girdle",
+                "type": "Plate",
+                "armor": 358,
+                "stamina": 15,
+                "defense": 9,
+                "mp5": 4,
+                "quality": 3
+            },
+            {
+                "name": "Frostbite Girdle",
+                "type": "Leather",
+                "armor": 98,
+                "strength": 5,
+                "agility": 15,
+                "stamina": 15,
+                "frostResistance": 10,
+                "quality": 3
+            },
+            {
+                "name": "Belt of the Ordained",
+                "type": "Plate",
+                "armor": 353,
+                "stamina": 9,
+                "intellect": 8,
+                "healing": 42,
+                "quality": 3
+            },
+            {
+                "name": "Barrage Girdle",
+                "type": "Mail",
+                "armor": 202,
+                "stamina": 6,
+                "intellect": 6,
+                "spirit": 6,
+                "spellpower": 23,
+                "healing": 23,
+                "quality": 3
+            },
+            {
+                "name": "Lightforge Belt",
+                "type": "Plate",
+                "armor": 341,
+                "strength": 10,
+                "stamina": 9,
+                "intellect": 15,
+                "spirit": 6,
+                "quality": 3
+            },
+            {
+                "name": "Marksman's Girdle",
+                "type": "Mail",
+                "armor": 202,
+                "agility": 21,
+                "hit": 1,
+                "quality": 3
+            },
+            {
+                "name": "Belt of the Trickster",
+                "type": "Leather",
+                "armor": 97,
+                "agility": 22,
+                "stamina": 9,
+                "quality": 3
+            },
+            {
+                "name": "Brigam Girdle",
+                "type": "Plate",
+                "armor": 369,
+                "strength": 15,
+                "stamina": 16,
+                "hit": 1,
+                "quality": 3
+            },
+            {
+                "name": "Deathforge Belt",
+                "type": "Plate",
+                "armor": 378,
+                "strength": 7,
+                "agility": 7,
+                "stamina": 15,
+                "parry": 1,
+                "defense": 4,
+                "quality": 3
+            },
+            {
+                "name": "Clutch of Hivaxxis",
+                "type": "Leather",
+                "armor": 157,
+                "agility": 7,
+                "stamina": 13,
+                "haste": 1,
+                "attackpower": 44,
+                "quality": 3
+            }
+        ]
+    },
+    {
+        "Class": "Pants",
+        "items": [
+            {
+                "name": "Leggings of Frenzied Magic",
+                "type": "Leather",
+                "armor": 142,
+                "stamina": 15,
+                "intellect": 15,
+                "quality": 3,
+                "spellpower": 16,
+                "mp5": 5
+            },
+            {
+                "name": "Savage Gladiator Leggings",
+                "type": "Mail",
+                "armor": 296,
+                "strength": 12,
+                "agility": 18,
+                "stamina": 19,
+                "quality": 3
+            },
+            {
+                "name": "Lavacrest Leggings",
+                "type": "Plate",
+                "armor": 531,
+                "strength": 28,
+                "stamina": 12,
+                "quality": 3
+            },
+            {
+                "name": "Warstrife Leggings",
+                "type": "Leather",
+                "armor": 144,
+                "strength": 6,
+                "agility": 6,
+                "stamina": 12,
+                "quality": 3,
+                "dodge": 2
+            },
+            {
+                "name": "Legplates of the Eternal Guardian",
+                "type": "Plate",
+                "armor": 742,
+                "quality": 3,
+                "defense": 15
+            },
+            {
+                "name": "Eldritch Reinforced Legplates",
+                "type": "Plate",
+                "armor": 566,
+                "strength": 15,
+                "agility": 9,
+                "stamina": 20,
+                "meleecrit": 1,
+                "quality": 3
+            },
+            {
+                "name": "Silvermoon Leggings",
+                "type": "Mail",
+                "armor": 320,
+                "agility": 6,
+                "stamina": 16,
+                "intellect": 16,
+                "spirit": 10,
+                "spellpower": 18,
+                "healing": 18,
+                "quality": 3
+            },
+            {
+                "name": "Leggings of Destruction",
+                "type": "Mail",
+                "armor": 324,
+                "agility": 14,
+                "stamina": 20,
+                "intellect": 13,
+                "meleecrit": 1,
+                "quality": 3
+            },
+            {
+                "name": "Maelstrom Leggings",
+                "type": "Mail",
+                "armor": 320,
+                "stamina": 20,
+                "intellect": 20,
+                "spirit": 10,
+                "healing": 13,
+                "quality": 3
+            },
+            {
+                "name": "Wraithplate Leggings",
+                "type": "Plate",
+                "armor": 696,
+                "stamina": 25,
+                "parry": 1,
+                "quality": 3
+            },
+            {
+                "name": "Crimson Defender's Leggings",
+                "type": "Plate",
+                "armor": 557,
+                "stamina": 20,
+                "shadowResistance": 10,
+                "spellpower": 14,
+                "healing": 14,
+                "defense": 5,
+                "unique": true,
+                "quality": 3
+            },
+            {
+                "name": "Lightforge Legplates",
+                "type": "Plate",
+                "armor": 557,
+                "strength": 20,
+                "agility": 8,
+                "stamina": 14,
+                "intellect": 12,
+                "spirit": 9,
+                "quality": 3
+            },
+            {
+                "name": "Legplates of Vigilance",
+                "type": "Plate",
+                "armor": 575,
+                "stamina": 22,
+                "defense": 15,
+                "quality": 3
+            },
+            {
+                "name": "Warmaster Legguards",
+                "type": "Plate",
+                "armor": 575,
+                "strength": 13,
+                "stamina": 15,
+                "dodge": 2,
+                "quality": 3
+            },
+            {
+                "name": "Handcrafted Mastersmith Leggings",
+                "type": "Plate",
+                "armor": 548,
+                "strength": 12,
+                "stamina": 29,
+                "defense": 8,
+                "quality": 3
+            },
+            {
+                "name": "Baneforged Leggings",
+                "type": "Plate",
+                "armor": 582,
+                "strength": 26,
+                "agility": 18,
+                "shadowResistance": 12,
+                "quality": 3
+            },
+            {
+                "name": "Plaguehound Leggings",
+                "type": "Leather",
+                "armor": 152,
+                "agility": 30,
+                "stamina": 6,
+                "hit": 1,
+                "quality": 3
+            },
+            {
+                "name": "Leggings of the Nullifier",
+                "type": "Plate",
+                "armor": 593,
+                "stamina": 22,
+                "arcaneResistance": 20,
+                "defense": 10,
+                "quality": 3
+            }
+        ]
+    },
+    {
+        "Class": "Boots",
+        "items": [
+            {
+                "name": "Blackstone Stompers",
+                "type": "Mail",
+                "armor": 233,
+                "agility": 13,
+                "stamina": 18,
+                "quality": 3
+            },
+            {
+                "name": "Entrenching Boots",
+                "type": "Plate",
+                "armor": 397,
+                "strength": 11,
+                "agility": 5,
+                "stamina": 10,
+                "intellect": 10,
+                "quality": 3,
+                "spellpower": 7
+            },
+            {
+                "name": "Greaves of Withering Despair",
+                "type": "Mail",
+                "armor": 218,
+                "stamina": 10,
+                "intellect": 10,
+                "quality": 3,
+                "spellpower": 11,
+                "spellhit": 1
+            },
+            {
+                "name": "Savage Gladiator Greaves",
+                "type": "Mail",
+                "armor": 233,
+                "strength": 10,
+                "agility": 15,
+                "stamina": 13,
+                "quality": 3
+            },
+            {
+                "name": "Shalehusk Boots",
+                "type": "Plate",
+                "armor": 417,
+                "stamina": 5,
+                "quality": 3,
+                "dodge": 2
+            },
+            {
+                "name": "Firemoss Boots",
+                "type": "Leather",
+                "armor": 112,
+                "stamina": 8,
+                "intellect": 18,
+                "quality": 3,
+                "healing": 20
+            },
+            {
+                "name": "Merciful Greaves",
+                "type": "Mail",
+                "armor": 240,
+                "stamina": 14,
+                "intellect": 14,
+                "quality": 3,
+                "healing": 20
+            },
+            {
+                "name": "Boots of Ferocity",
+                "type": "Leather",
+                "armor": 118,
+                "strength": 13,
+                "agility": 13,
+                "stamina": 13,
+                "quality": 3
+            },
+            {
+                "name": "Waterspout Boots",
+                "type": "Leather",
+                "armor": 114,
+                "intellect": 6,
+                "spirit": 6,
+                "quality": 3,
+                "spellpower": 25,
+                "healing": 25
+            },
+            {
+                "name": "Grimy Metal Boots",
+                "type": "Plate",
+                "armor": 552,
+                "stamina": 17,
+                "dodge": 1,
+                "quality": 3
+            },
+            {
+                "name": "Deathbone Sabatons",
+                "type": "Plate",
+                "armor": 438,
+                "stamina": 9,
+                "mp5": 6,
+                "defense": 10,
+                "quality": 3
+            },
+            {
+                "name": "Lightforge Boots",
+                "type": "Plate",
+                "armor": 424,
+                "strength": 8,
+                "stamina": 18,
+                "spirit": 9,
+                "quality": 3
+            },
+            {
+                "name": "Master Cannoneer Boots",
+                "type": "Plate",
+                "armor": 438,
+                "strength": 10,
+                "stamina": 21,
+                "quality": 3
+            },
+            {
+                "name": "Boots of the Shrieker",
+                "type": "Leather",
+                "armor": 120,
+                "stamina": 10,
+                "intellect": 10,
+                "spirit": 10,
+                "shadowResistance": 10,
+                "spellpower": 12,
+                "healing": 12,
+                "quality": 3
+            },
+            {
+                "name": "Windreaver Greaves",
+                "type": "Mail",
+                "armor": 247,
+                "agility": 20,
+                "hit": 1,
+                "quality": 3
+            },
+            {
+                "name": "Verdant Footpads",
+                "type": "Leather",
+                "armor": 118,
+                "healing": 37,
+                "natureSpellpower": 24,
+                "quality": 3
+            },
+            {
+                "name": "Greaves of the Elusive",
+                "type": "Mail",
+                "armor": 289,
+                "agility": 8,
+                "stamina": 18,
+                "dodge": 1,
+                "hit": 1,
+                "quality": 3
+            },
+            {
+                "name": "Boots of the Riftwalker",
+                "type": "Plate",
+                "armor": 472,
+                "strength": 12,
+                "agility": 9,
+                "stamina": 20,
+                "shadowResistance": 5,
+                "defense": 5,
+                "quality": 3
+            }
+        ]
+    },
+    {
+        "Class": "Ring",
+        "items": [
+            {
+                "name": "Flameforged Lugnut",
+                "type": "Ring",
+                "strength": 18,
+                "fireResistance": 5,
+                "quality": 3
+            },
+            {
+                "name": "Band of Calamity",
+                "type": "Ring",
+                "unique": true,
+                "ignoreArmor": 50,
+                "quality": 3
+            },
+            {
+                "name": "Bloodclot Band",
+                "type": "Ring",
+                "unique": true,
+                "stamina": 8,
+                "intellect": 8,
+                "spirit": 7,
+                "quality": 3,
+                "healing": 15
+            },
+            {
+                "name": "Cyclopean Band",
+                "type": "Ring",
+                "unique": true,
+                "strength": 4,
+                "stamina": 8,
+                "intellect": 7,
+                "spirit": 4,
+                "quality": 3,
+                "spellpower": 9
+            },
+            {
+                "name": "Magma Forged Band",
+                "type": "Ring",
+                "unique": true,
+                "strength": 7,
+                "agility": 12,
+                "stamina": 7,
+                "quality": 3
+            },
+            {
+                "name": "Naglering",
+                "type": "Ring",
+                "unique": true,
+                "armor": 50,
+                "stamina": 10,
+                "defense": 5,
+                "arcaneReflect": 3,
+                "quality": 3
+            },
+            {
+                "name": "Emerald Flame Ring",
+                "type": "Ring",
+                "stamina": 7,
+                "intellect": 12,
+                "spirit": 8,
+                "healing": 15,
+                "quality": 3
+            },
+            {
+                "name": "Tarnished Elven Ring",
+                "type": "Ring",
+                "agility": 15,
+                "hit": 1,
+                "quality": 3
+            },
+            {
+                "name": "Band of the Ogre King",
+                "type": "Ring",
+                "strength": 14,
+                "stamina": 13,
+                "quality": 3
+            },
+            {
+                "name": "Don Mauricio's Band of Domination",
+                "type": "Ring",
+                "unique": true,
+                "stamina": 5,
+                "spellpower": 11,
+                "healing": 11,
+                "spellcrit": 1,
+                "quality": 3
+            },
+            {
+                "name": "Band of the Steadfast Hero",
+                "type": "Ring",
+                "unique": true,
+                "strength": 7,
+                "stamina": 12,
+                "defense": 7,
+                "quality": 3
+            },
+            {
+                "name": "Innervating Band",
+                "type": "Ring",
+                "unique": true,
+                "agility": 15,
+                "stamina": 9,
+                "quality": 3
+            },
+            {
+                "name": "The Postmaster's Seal",
+                "type": "Ring",
+                "unique": true,
+                "stamina": 6,
+                "intellect": 3,
+                "spirit": 12,
+                "spellpower": 12,
+                "healing": 12,
+                "quality": 3
+            },
+            {
+                "name": "Band of Flesh",
+                "type": "Ring",
+                "unique": true,
+                "stamina": 8,
+                "quality": 3
+            },
+            {
+                "name": "Seal of the Archmagus",
+                "type": "Ring",
+                "unique": true,
+                "intellect": 12,
+                "spellpower": 18,
+                "quality": 3
+            }
+        ]
+    },
+    {
+        "Class": "Trinkets",
+        "items": [
+            {
+                "name": "Corrosive Core",
+                "type": "Trinket",
+                "unique": true,
+                "natureResistance": 10,
+                "ignoreArmor": 40,
+                "hit": 1,
+                "quality": 3
+            },
+            {
+                "name": "Hatereaver Cog",
+                "type": "Trinket",
+                "unique": true,
+                "armor": 120,
+                "stamina": 12,
+                "fireResistance": 5,
+                "haste": 1,
+                "quality": 3
+            },
+            {
+                "name": "Force of Will",
+                "type": "Trinket",
+                "quality": 3,
+                "defense": 7
+            },
+            {
+                "name": "Royal Seal of Eldre'Thalas",
+                "type": "Trinket",
+                "unique": true,
+                "fireResistance": 10,
+                "defense": 8,
+                "spellpower": 18,
+                "healing": 15,
+                "classRestriction": [
+                    "Paladin"
+                ],
+                "quality": 3
+            },
+            {
+                "name": "Counterattack Lodestone",
+                "type": "Trinket",
+                "parry": 1,
+                "attackpower": 34,
+                "quality": 3
+            },
+            {
+                "name": "Blackhand's Breadth",
+                "type": "Trinket",
+                "unique": true,
+                "meleecrit": 2,
+                "quality": 3
+            },
+            {
+                "name": "Mark of Tyranny",
+                "type": "Trinket",
+                "unique": true,
+                "armor": 180,
+                "arcaneResistance": 10,
+                "dodge": 1,
+                "quality": 3
+            },
+            {
+                "name": "Briarwood Reed",
+                "type": "Trinket",
+                "unique": true,
+                "spellpower": 29,
+                "healing": 29,
+                "quality": 3
+            },
+            {
+                "name": "Fabric of Time",
+                "type": "Trinket",
+                "unique": true,
+                "intellect": -20,
+                "spellpower": 30,
+                "healing": 30,
+                "mp5": 7,
+                "quality": 3
+            },
+            {
+                "name": "Mark of the Chosen",
+                "type": "Trinket",
+                "unique": true,
+                "attackpower": 25,
+                "quality": 3
+            },
+            {
+                "name": "Talisman of Ephemeral Power",
+                "type": "Trinket",
+                "unique": true,
+                "spellpower": 30,
+                "quality": 3
+            }
+        ]
+    },
+    {
+        "Class": "Weapons",
+        "items": [
+            {
+                "name": "Arbiter's Blade",
+                "type": "Sword",
+                "slot": "Main Hand",
+                "minDamage": 59,
+                "maxDamage": 110,
+                "speed": 2.4,
+                "armor": 0,
+                "stamina": 8,
+                "intellect": 5,
+                "quality": 3,
+                "spellpower": 8
+            },
+            {
+                "name": "Doomforged Straightedge",
+                "type": "Sword",
+                "slot": "One-Hand",
+                "minDamage": 47,
+                "maxDamage": 89,
+                "speed": 1.9,
+                "strength": 10,
+                "quality": 3,
+                "attackpower": 12
+            },
+            {
+                "name": "Ribsplitter",
+                "type": "Axe",
+                "slot": "Main Hand",
+                "minDamage": 66,
+                "maxDamage": 124,
+                "speed": 2.7,
+                "quality": 3,
+                "attackpower": 10
+            },
+            {
+                "name": "Lavastone Hammer",
+                "type": "Mace",
+                "slot": "Two-Hand",
+                "minDamage": 135,
+                "maxDamage": 203,
+                "speed": 3.4,
+                "strength": 10,
+                "stamina": 14,
+                "intellect": 12,
+                "quality": 3,
+                "spellpower": 20
+            },
+            {
+                "name": "Impervious Giant",
+                "type": "Mace",
+                "slot": "Two-Hand",
+                "minDamage": 105,
+                "maxDamage": 159,
+                "speed": 2.7,
+                "armor": 30,
+                "quality": 3,
+                "hit": 1,
+                "meleecrit": 2
+            },
+            {
+                "name": "The Hammer of Grace",
+                "type": "Mace",
+                "slot": "Main Hand",
+                "minDamage": 71,
+                "maxDamage": 132,
+                "speed": 2.7,
+                "quality": 3,
+                "healing": 31
+            },
+            {
+                "name": "Energetic Rod",
+                "type": "Mace",
+                "slot": "Main Hand",
+                "minDamage": 71,
+                "maxDamage": 107,
+                "speed": 2.3,
+                "intellect": 5,
+                "quality": 3,
+                "spellpower": 14,
+                "healing": 14
+            },
+            {
+                "name": "Hammer of Revitalization",
+                "type": "Mace",
+                "slot": "Main Hand",
+                "minDamage": 75,
+                "maxDamage": 141,
+                "speed": 2.7,
+                "stamina": 5,
+                "quality": 3,
+                "healing": 26
+            },
+            {
+                "name": "Huntsman's Harpoon",
+                "type": "Polearm",
+                "slot": "Two-Hand",
+                "minDamage": 150,
+                "maxDamage": 226,
+                "speed": 3.6,
+                "agility": 35,
+                "quality": 3
+            },
+            {
+                "name": "Timeworn Mace",
+                "type": "Mace",
+                "slot": "One-Hand",
+                "minDamage": 62,
+                "maxDamage": 117,
+                "speed": 2.2,
+                "armor": 120,
+                "strength": 7,
+                "stamina": 11,
+                "quality": 3
+            },
+            {
+                "name": "Mind Carver",
+                "type": "Sword",
+                "slot": "Main Hand",
+                "minDamage": 57,
+                "maxDamage": 106,
+                "speed": 2.0,
+                "intellect": 8,
+                "spellpower": 12,
+                "quality": 3
+            },
+            {
+                "name": "Barbarous Blade",
+                "type": "Sword",
+                "slot": "Two-Hand",
+                "minDamage": 138,
+                "maxDamage": 207,
+                "speed": 3.2,
+                "meleecrit": 1,
+                "attackpower": 60,
+                "quality": 3
+            },
+            {
+                "name": "Monstrous Glaive",
+                "type": "Polearm",
+                "slot": "Two-Hand",
+                "minDamage": 123,
+                "maxDamage": 185,
+                "speed": 2.9,
+                "stamina": 24,
+                "parry": 1,
+                "defense": 10,
+                "quality": 3
+            },
+            {
+                "name": "Hammer of Divine Might",
+                "type": "Mace",
+                "slot": "Two-Hand",
+                "minDamage": 89,
+                "maxDamage": 134,
+                "speed": 2.1,
+                "stamina": 13,
+                "intellect": 15,
+                "spellpower": 27,
+                "healing": 27,
+                "quality": 3
+            },
+            {
+                "name": "Hammer of the Grand Crusader",
+                "type": "Mace",
+                "slot": "Two-Hand",
+                "minDamage": 116,
+                "maxDamage": 175,
+                "speed": 2.7,
+                "stamina": 10,
+                "intellect": 26,
+                "spirit": 9,
+                "healing": 22,
+                "quality": 3
+            },
+            {
+                "name": "Crimson Spellblade",
+                "type": "Sword",
+                "slot": "Main Hand",
+                "minDamage": 53,
+                "maxDamage": 99,
+                "speed": 1.9,
+                "stamina": 10,
+                "spellpower": 11,
+                "healing": 11,
+                "fireDamage": 2,
+                "quality": 3
+            },
+            {
+                "name": "Fist of Omokk",
+                "type": "Mace",
+                "slot": "Two-Hand",
+                "minDamage": 135,
+                "maxDamage": 204,
+                "speed": 3.3,
+                "strength": 29,
+                "stamina": 12,
+                "quality": 3
+            },
+            {
+                "name": "Mastersmith's Hammer",
+                "type": "Mace",
+                "slot": "Main Hand",
+                "minDamage": 66,
+                "maxDamage": 123,
+                "speed": 2.4,
+                "intellect": 5,
+                "spellpower": 14,
+                "healing": 14,
+                "quality": 3
+            },
+            {
+                "name": "Cryptkeeper's Pike",
+                "type": "Polearm",
+                "slot": "Two-Hand",
+                "minDamage": 160,
+                "maxDamage": 245,
+                "speed": 3.7,
+                "strength": 25,
+                "spirit": 18,
+                "hit": 1,
+                "quality": 3
+            }
+        ]
+    },
+    {
+        "Class": "Off-Hands",
+        "items": [
+            {
+                "name": "Thaurissan's Royal Scepter",
+                "type": "Off-Hand",
+                "stamina": 5,
+                "intellect": 5,
+                "spirit": 10,
+                "quality": 3,
+                "healing": 22
+            },
+            {
+                "name": "Dreadguard's Protector",
+                "type": "Shield",
+                "armor": 2121,
+                "block": 39,
+                "strength": 18,
+                "stamina": 5,
+                "quality": 3
+            },
+            {
+                "name": "Barrier Shield",
+                "type": "Shield",
+                "armor": 2121,
+                "block": 39,
+                "blockChance": 2,
+                "blockvalue": 18,
+                "quality": 3
+            },
+            {
+                "name": "Observer's Shield",
+                "type": "Shield",
+                "armor": 2089,
+                "block": 38,
+                "stamina": 9,
+                "intellect": 14,
+                "spirit": 5,
+                "quality": 3
+            },
+            {
+                "name": "Brightly Glowing Stone",
+                "type": "Off-Hand",
+                "stamina": 7,
+                "healing": 37,
+                "quality": 3
+            },
+            {
+                "name": "Intricately Runed Shield",
+                "type": "Shield",
+                "armor": 2121,
+                "block": 39,
+                "stamina": 8,
+                "blockvalue": 24,
+                "quality": 3
+            },
+            {
+                "name": "Rattlecage Buckler",
+                "type": "Shield",
+                "armor": 2121,
+                "block": 39,
+                "stamina": 7,
+                "intellect": 12,
+                "spirit": 7,
+                "shadowResistance": 7,
+                "quality": 3
+            },
+            {
+                "name": "Lord Blackwood's Buckler",
+                "type": "Shield",
+                "armor": 2121,
+                "block": 39,
+                "stamina": 10,
+                "blockvalue": 27,
+                "quality": 3
+            },
+            {
+                "name": "Rhombeard Protector",
+                "type": "Shield",
+                "armor": 2089,
+                "block": 38,
+                "intellect": 15,
+                "spirit": 10,
+                "quality": 3
+            },
+            {
+                "name": "Draconian Deflector",
+                "type": "Shield",
+                "armor": 2153,
+                "block": 40,
+                "stamina": 7,
+                "fireResistance": 10,
+                "defense": 10,
+                "quality": 3
+            },
+            {
+                "name": "Draconian Aegis of the Legion",
+                "type": "Shield",
+                "armor": 2153,
+                "block": 40,
+                "stamina": 7,
+                "spellpower": 20,
+                "healing": 20,
+                "quality": 3
+            },
+            {
+                "name": "Bonewall",
+                "type": "Shield",
+                "armor": 2206,
+                "block": 42,
+                "strength": 5,
+                "stamina": 14,
+                "shadowResistance": 5,
+                "defense": 7,
+                "quality": 3
+            },
+            {
+                "name": "Bulwark of the Crimson Guard",
+                "type": "Shield",
+                "armor": 2243,
+                "block": 43,
+                "stamina": 8,
+                "intellect": 8,
+                "shadowResistance": 10,
+                "spellpower": 12,
+                "healing": 12,
+                "spellpen": 10,
+                "quality": 3
+            }
+        ]
+    },
+    {
+        "Class": "Libram",
+        "items": [
+            {
+                "name": "Test Libram",
+                "type": "Libram",
+                "armor": 200,
+                "block": 200,
+                "stamina": 200,
+                "intellect": 200,
+                "shadowResistance": 200,
+                "spellpower": 200,
+                "healing": 200,
+                "spellpen": 200,
+                "health": 200,
+                "mana": 200,
+                "mp5": 200,
+                "meleehaste": 200,
+                "vampirism": 200,
+                "spirit": 200,
+                "strength": 200,
+                "agility": 200,
+                "attackpower": 200,
+                "armorpen": 200,
+                "meleecrit": 200,
+                "meleehit": 200,
+                "healingpower": 200,
+                "spellcrit": 200,
+                "spellhit": 200,
+                "spellhaste": 200,
+                "dodge": 200,
+                "defense": 200,
+                "parry": 200,
+                "blockvalue": 200,
+                "fireResistance": 200,
+                "frostResistance": 200,
+                "natureResistance": 200,
+                "arcaneResistance": 200,
+                "axes": 200,
+                "swords": 200,
+                "maces": 200,
+                "twohandedswords": 200,
+                "twohandedmaces": 200,
+                "polearms": 200,
+                "arcanethorns": 200,
+                "firethorns": 200,
+                "naturethorns": 200,
+                "frostthorns": 200,
+                "shadowthorns": 200,
+                "arcanespellstrike": 200,
+                "firespellstrike": 200,
+                "naturespellstrike": 200,
+                "frostspellstrike": 200,
+                "shadowspellstrike": 200,
+                "quality": 5
+            }
+
+        ]
+    }
+]
