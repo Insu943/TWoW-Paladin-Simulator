@@ -1,0 +1,63 @@
+{
+  "name": "twow-paladin-simulator",
+  "version": "1.0.0",
+  "description": "TWoW Paladin Simulator",
+  "main": "electron.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "build-win": "electron-builder --win",
+    "build-mac": "electron-builder --mac",
+    "build-linux": "electron-builder --linux",
+    "pack": "electron-builder --dir",
+    "dist": "npm run build",
+    "prebuild": "node build-setup.js"
+  },
+  "build": {
+    "appId": "com.twow.paladin-simulator",
+    "productName": "TWoW Paladin Simulator",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "source/**/*",
+      "Data/**/*",
+      "assets/**/*",
+      "electron.js",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "Data",
+        "to": "Data",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "assets",
+        "to": "assets"
+      }
+    ],
+    "asarUnpack": [
+      "Data/**/*"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icons/titleicon.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "assets/icons/titleicon.icns"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "assets/icons/titleicon.png"
+    }
+  },
+  "devDependencies": {
+    "electron": "^27.0.0",
+    "electron-builder": "^24.6.4"
+  },
+  "dependencies": {}
+}
