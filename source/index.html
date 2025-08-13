@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TWoW Paladin Sim</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <div class="logo-icon">
+                <img src="../assets/icons/titleicon.jpg" alt="Paladin Icon">
+            </div>
+            <span style="color: #ffd700; font-weight: bold; font-size: 16px;">TWoW Paladin Simulator</span>
+        </div>
+        <div class="nav">
+            <button class="nav-btn active" id="simulation-btn">Simulation</button>
+            <button class="nav-btn" id="talents-buffs-btn">Talents/Buffs</button>
+            <button class="nav-btn" id="rotation-btn">Rotation</button>
+        </div>
+        <div class="header-right">
+        </div>
+    </div>
+
+    <div class="fixed-bottom-action-row">
+        <button id="unequip-all-btn" class="unequip-all-btn">Unequip All</button>
+    </div>
+    <button id="save-preset-btn" class="save-preset-btn">Save Preset</button>
+    <button id="delete-preset-btn" class="delete-preset-btn">Delete Preset</button>
+
+    <!-- Confirmation Modal for Unequip All -->
+    <div id="confirm-unequip-modal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.4); z-index:9999; align-items:center; justify-content:center;">
+        <div style="background:#222; color:#ffd700; padding:32px 24px; border-radius:12px; box-shadow:0 2px 16px #000; min-width:300px; display:flex; flex-direction:column; align-items:center;">
+            <span style="font-size:18px; margin-bottom:16px;">Are you sure you want to unequip all gear?</span>
+            <div style="width:100%; display:flex; justify-content:space-between;">
+                <button id="confirm-unequip-yes" style="background:#0070dd; color:#ffd700; font-weight:bold; border:none; border-radius:6px; padding:10px 24px; margin-right:auto;">Yes</button>
+                <button id="confirm-unequip-no" style="background:#8B0000; color:#ffd700; font-weight:bold; border:none; border-radius:6px; padding:10px 24px; margin-left:auto;">No</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Confirmation Modal for Delete Preset -->
+    <div id="confirm-delete-modal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.4); z-index:9999; align-items:center; justify-content:center;">
+        <div style="background:#222; color:#ffd700; padding:32px 24px; border-radius:12px; box-shadow:0 2px 16px #000; min-width:300px; display:flex; flex-direction:column; align-items:center;">
+            <span style="font-size:18px; margin-bottom:16px;">Are you sure you want to delete this preset?</span>
+            <div style="width:100%; display:flex; justify-content:space-between;">
+                <button id="confirm-delete-yes" style="background:#0070dd; color:#ffd700; font-weight:bold; border:none; border-radius:6px; padding:10px 24px; margin-right:auto;">Yes</button>
+                <button id="confirm-delete-no" style="background:#8B0000; color:#ffd700; font-weight:bold; border:none; border-radius:6px; padding:10px 24px; margin-left:auto;">No</button>
+            </div>
+        </div>
+    </div>
+
+        <!-- Preset Name Modal -->
+        <div id="preset-name-modal" style="display:none; position:fixed; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.4); z-index:9999; align-items:center; justify-content:center;">
+            <div style="background:#222; color:#ffd700; padding:32px 24px; border-radius:12px; box-shadow:0 2px 16px #000; min-width:300px; display:flex; flex-direction:column; align-items:center;">
+                <div style="font-size:18px; margin-bottom:16px;">Enter preset name:</div>
+                <input id="preset-name-input" type="text" style="width:100%; padding:8px; font-size:16px; margin-bottom:8px; border-radius:6px; border:1px solid #ffd700;" />
+                <div id="preset-name-error" style="color:#ff4444; font-size:15px; margin-bottom:8px; display:none;">Please give a name.</div>
+                <button id="preset-name-ok-btn" style="background:#ffd700; color:#222; font-weight:bold; padding:8px 24px; border:none; border-radius:6px; font-size:16px; cursor:pointer;">OK</button>
+            </div>
+        </div>
+
+    <div class="main-flex-layout">
+        <div class="sidebar">
+            <div class="panel-section simulation-block">
+                <div class="panel-title">Simulation</div>
+                <!-- Add simulation controls or summary here -->
+                    <div id="simulation-summary">temp text</div>
+            </div>
+            <div class="panel-section preset-block">
+                <div class="panel-title">Presets</div>
+                <select class="preset-dropdown" id="preset-dropdown">
+                    <option value="">Select Preset</option>
+                </select>
+                <button class="load-preset-btn" id="load-preset-btn">Load Preset</button>
+            </div>
+                <!-- Dropdown Menus for Misc Stats, Weapon Skill, Resistances -->
+                <div class="panel-section stat-dropdowns">
+                    <div class="stat-block-header" style="font-size:16px; text-align:center; color:#ffd700; font-weight:bold;">Additional Stats</div>
+                    <div class="stat-block-spacer" style="height:8px; border-bottom:1px solid #ffd700; margin:0 12px 8px 12px;"></div>
+                    <div class="stat-dropdown" id="misc-stats-dropdown">
+                    <div class="stat-dropdown-header">
+                        Misc Stats
+                        <span class="dropdown-arrow">&#9660;</span>
+                    </div>
+                    <div class="stat-dropdown-content" style="display:none;"></div>
+                </div>
+                <div class="stat-dropdown" id="weapon-skill-dropdown">
+                    <div class="stat-dropdown-header">
+                        Weapon Skill
+                        <span class="dropdown-arrow">&#9660;</span>
+                    </div>
+                    <div class="stat-dropdown-content" style="display:none;"></div>
+                </div>
+                <div class="stat-dropdown" id="resistances-dropdown">
+                    <div class="stat-dropdown-header">
+                        Resistances
+                        <span class="dropdown-arrow">&#9660;</span>
+                    </div>
+                    <div class="stat-dropdown-content" style="display:none;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="main-panel">
+            <div class="equipment-grid">
+                <div class="gear-slot gear-helmet" data-slot="helmet">
+                    <div class="gear-icon empty"></div>
+                    <div class="gear-name">Helmet</div>
+                </div>
+                <div class="gear-slot gear-neck" data-slot="neck">
+                    <div class="gear-icon empty"></div>
+                    <div class="gear-name">Neck</div>
+                </div>
+                <div class="gear-slot gear-wrist" data-slot="wrist">
+                    <div class="gear-icon empty"></div>
+                    <div class="gear-name">Wrist</div>
+                </div>
+                <div class="gear-slot gear-gloves" data-slot="gloves">
+                    <div class="gear-icon empty"></div>
+                    <div class="gear-name">Gloves</div>
+                </div>
+                <div class="gear-slot gear-chest" data-slot="chest">
+                    <div class="gear-icon empty"></div>
+                    <div class="gear-name">Chest</div>
+                </div>
+                <div class="gear-slot gear-cloak" data-slot="cloak">
+                    <div class="gear-icon empty"></div>
+                    <div class="gear-name">Cloak</div>
+                </div>
+                <div class="gear-slot gear-shoulders" data-slot="shoulders">
+                    <div class="gear-icon empty"></div>
+                    <div class="gear-name">Shoulders</div>
+                </div>
+                <div class="gear-slot gear-belt" data-slot="belt">
+                    <div class="gear-icon empty"></div>
+                    <div class="gear-name">Belt</div>
+                </div>
+                <div class="gear-slot gear-pants" data-slot="pants">
+                    <div class="gear-icon empty"></div>
+                    <div class="gear-name">Pants</div>
+                </div>
+                <div class="gear-slot gear-boots" data-slot="boots">
+                    <div class="gear-icon empty"></div>
+                    <div class="gear-name">Boots</div>
+                </div>
+                <div class="gear-slot gear-ring1" data-slot="ring1">
+                    <div class="gear-icon empty"></div>
+                    <div class="gear-name">Ring 1</div>
+                </div>
+                <div class="gear-slot gear-ring2" data-slot="ring2">
+                    <div class="gear-icon empty"></div>
+                    <div class="gear-name">Ring 2</div>
+                </div>
+                <div class="gear-slot gear-trinket1" data-slot="trinket1">
+                    <div class="gear-icon empty"></div>
+                    <div class="gear-name">Trinket 1</div>
+                </div>
+                <div class="gear-slot gear-trinket2" data-slot="trinket2">
+                    <div class="gear-icon empty"></div>
+                    <div class="gear-name">Trinket 2</div>
+                </div>
+                <div class="gear-slot gear-mainhand" data-slot="mainhand">
+                    <div class="gear-icon empty"></div>
+                    <div class="gear-name">Main Hand</div>
+                </div>
+                <div class="gear-slot gear-offhand" data-slot="offhand">
+                    <div class="gear-icon empty"></div>
+                    <div class="gear-name">Off Hand</div>
+                </div>
+                <div class="gear-slot gear-libram" data-slot="libram">
+                    <div class="gear-icon empty"></div>
+                    <div class="gear-name">Libram</div>
+                </div>
+                <div class="gear-slot gear-race" data-slot="race" id="gear-race">
+                    <div class="gear-icon empty race"></div>
+                    <span class="gear-name">Race</span>
+                </div>
+            </div>
+            <div class="stat-block"></div>
+        </div>
+        </div>
+
+    <!-- Race slot now uses the same item menu modal as other gear slots. Debugging for race slot removed. -->
+
+    <script src="scripts/math.js"></script>
+    <script src="scripts/Stats.js"></script>
+    <script src="scripts/StatBreakdown.js"></script>
+    <script src="scripts/itemmenu.js"></script>
+    <script src="scripts/main.js"></script>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize StatBreakdown if available
+        if (window.StatBreakdown && typeof window.StatBreakdown === 'function') {
+            if (!window.statBreakdown) {
+                window.statBreakdown = new window.StatBreakdown();
+                window.statBreakdown.initialize();
+            }
+        }
+        // Make stat names in stat block clickable for breakdown
+        setTimeout(function() {
+            var statBlock = document.querySelector('.stat-block');
+            if (statBlock) {
+                var statNames = statBlock.querySelectorAll('.stat-name');
+                statNames.forEach(function(statEl) {
+                    statEl.classList.add('stat-name-clickable');
+                    statEl.setAttribute('data-stat', statEl.textContent.trim());
+                    statEl.style.cursor = 'pointer';
+                    statEl.addEventListener('click', function(e) {
+                        var statName = statEl.getAttribute('data-stat') || statEl.textContent.trim();
+                        if (window.statBreakdown && typeof window.statBreakdown.showStatBreakdown === 'function') {
+                            window.statBreakdown.showStatBreakdown(statName);
+                        }
+                    });
+                });
+            }
+        }, 500);
+    });
+        </script>
+</body>
+</html>
